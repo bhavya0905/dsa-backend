@@ -10,9 +10,10 @@ CORS(app)
 connection = pymysql.connect(
     host='localhost',
     user='root',
-    password='root123',  # Apna password daalo
+    password='root123',  # Apna password daalo 
     database='dsa_learning',
     port=3307  # Apna port daalo
+    # hello dosto
 )
 
 @app.route('/')
